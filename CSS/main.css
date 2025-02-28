@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+/* div sect */
+#wrapper {
+  background-color: aliceblue;
+  width: 89%;
+  border: 0.4rem solid rgb(193, 2, 252);
+  margin: auto;
+  padding: 1.25rem;
+}
+
+#zimimg {
+  display: block;
+  margin: 2rem auto;
+}
+
+/* text decoratives in head */
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(110, 0, 244);
+  background-color: rgba(131, 78, 178, 0.524);
+  width: 50%;
+  padding: 1.25rem;
+  border: 0.3rem solid rgb(184, 96, 184);
+  margin: auto;
+  border-radius: 0.5rem;
+  text-shadow: 4px 4px 6px rgb(145, 157, 251);
+  box-shadow: 6px 5px 5px purple;
+}
+
+p {
+  line-height: 2rem;
+}
+
+h2 {
+  font-family: "Kalnia", serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(43, 131, 226);
+}
+a:hover {
+  color: rgb(174, 10, 207);
+}
+
+ul {
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+li {
+  flex: 1;
+}
